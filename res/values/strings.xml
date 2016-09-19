@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcomeTxt">Welcome To Trivia App</string>
+    <string name="startTriviaTxt">Start Trivia</string>
+    <string name="createQTxt">Create Quiz Question</string>
+    <string name="delAllMyQTxt">Delete All My Questions</string>
+    <string name="exitTxt">Exit</string>
+    <string name="title_activity_trivia">TriviaActivity</string>
+    <string name="baseUrl">http://dev.theappsdr.com/apis/trivia/</string>
+    <string name="quitBtnTxt">Quit</string>
+    <string name="nextBtnTxt">Next</string>
+    <string name="progressBarTxt">Loading Image</string>
+    <string name="title_activity_result">Result Activity</string>
+    <string name="triviaResultTxt">Trivia Results</string>
+    <string name="correctAnswTxt">Correct Answers</string>
+    <string name="tryAgainBtnTxt">Try Again</string>
+    <string name="resultDescTxtAllCorrect">Nice work!!</string>
+    <string name="resultDescTxtSomeCorrect">Try again and see if you can get all the correct answers!</string>
+    <string name="title_activity_create_question">Create Question Activity</string>
+    <string name="createNewQTxt">Create A New Question</string>
+    <string name="submitBtnTxt">Submit</string>
+    <string name="qHint">Type question here</string>
+    <string name="optionHint">Type option here</string>
+    <string name="urlHint">Paste image URL here (optional)</string>
+    <string name="gid">jOutmikjf6iJVJp4EhRn</string>
+
+</resources>

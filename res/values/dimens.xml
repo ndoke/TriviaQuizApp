@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topBottomOuter">30px</dimen>
+    <dimen name="leftRightOuter">15px</dimen>
+    <dimen name="imgMaxHeight">200dp</dimen>
+</resources>

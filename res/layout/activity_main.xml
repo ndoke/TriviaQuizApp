@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/topBottomOuter"
+    android:layout_marginLeft="@dimen/leftRightOuter"
+    android:layout_marginRight="@dimen/leftRightOuter"
+    android:layout_marginTop="@dimen/topBottomOuter"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textViewQNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/welcomeTxt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/topBottomOuter"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonStartTrivia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/startTriviaTxt"
+            android:onClick="btnClicked" />
+
+        <Button
+            android:id="@+id/buttonCreateQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/leftRightOuter"
+            android:text="@string/createQTxt" 
+            android:onClick="btnClicked"/>
+
+        <Button
+            android:id="@+id/buttonDelAllMyQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/leftRightOuter"
+            android:text="@string/delAllMyQTxt" 
+            android:onClick="btnClicked"/>
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/leftRightOuter"
+            android:text="@string/exitTxt" 
+            android:onClick="btnClicked"/>
+
+    </LinearLayout>
+
+</LinearLayout>
